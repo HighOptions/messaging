@@ -1,0 +1,14 @@
+
+    <%-include("partials/header.ejs")  %>
+    <div id="makeCenter">
+    <h1>DAILY ACTIVITY </h1>
+    <form action="/submit" method="POST">
+        <input type="text" name="ProductDetail" placeholder="product Detail">
+        <input type="number" name="Prices" placeholder="price">
+        <input type="number" name="PhNo" placeholder="phone number">
+        <input type="submit" value="send">
+            
+           
+      </form>
+    </div>
+    <%-include("partials/footer.ejs")  %>

@@ -1,0 +1,10 @@
+<%-include("partials/header.ejs")  %>
+this is database
+<div id="list">
+    <%  myList.forEach(item => { %>
+        <ul>
+    <input type="checkbox" id="myCheckbox"><%= item %>
+</ul>
+    <%  });%>
+</div>
+<%-include("partials/footer.ejs")  %>
